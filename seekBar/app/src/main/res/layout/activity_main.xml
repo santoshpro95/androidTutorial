@@ -1,0 +1,27 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:max="100"
+        android:min="1"
+        android:id="@+id/slider"
+        android:thumbTint="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/text"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/slider"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
